@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan CSS</title>
+  <style type="text/css">
+    p {
+      color:#212121;
+      font: weight 600px;
+      font-family: Arial;
+      font-style: italic;
+      text-transform: capitalize;
+      text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.849);
+      text-align: center;
+      line-height: 1;
+      letter-spacing: normal;
+      word-spacing: normal;
+    }
+    .title {
+      font-size: 50px;
+    }
+    #paragraph {
+      color:blue
+    }
+    .button {
+      background-color: green;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-top: 2px, solid red;
+      margin-top: 100px;
+    } 
+    .button p {
+        color: #FFF;
+        text-align: center;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <p class="title">JAKARTA</p>
+    <p id="paragraph">Jakarta adalah ibu kota negara Indoneisa sejak zaman penjajahan Belanda hingga kini. Namun, akhir-akhir ini presiden Jokowi hendak memindahkan Ibu kota Indonesia ke tempat yang lain. hal ini dapat banyak protes dan demo dari rakyat Indonesia sendiri.</p>
+    <p>Kau adalah apa yang Anda makan dan pikirkan</p>
+    <p>kita tahu karena kita <b><u><i>mempertanyakan</i></u></b> apa yang kita pikirkan</p>
+    <p>Nama-nama buah:</p>
+    <div>
+      <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Apel</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Beri</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Ceri</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Durian</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Gori</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Jeruk</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Kelapa</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Lemon</p>
+    <p style="background: rgb(21,21,25);
+                background: linear-gradient(99deg, rgba(0,0,0,1) 19%, rgba(103,32,32,1) 47%, rgba(204,41,20,1) 94%, rgba(255,0,0,1) 100%); 
+                border-top-right-radius: 30px; 
+                border-bottom-right-radius: 30px; 
+                color:aliceblue; 
+                margin: 5px 40px; 
+                padding: 20px;"
+    >Mangga</p>
+    </div>
+</body>
+</html>
